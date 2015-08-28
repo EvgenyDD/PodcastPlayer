@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/H:/WORKSPACE/Android/vanilla/res/values-v21/theme.xml -->
+    <eat-comment/>
+    <color name="button_material_dark">#ff5a595b</color>
+    <color name="button_material_light">#ffd6d7d7</color>
+    <color name="controls_active">@color/vanillaAccent</color>
+    <color name="controls_normal">@color/material_grey_600</color>
+    <color name="material_grey_300">#ffeeeeee</color>
+    <color name="material_grey_400">#bdbdbd</color>
+    <color name="material_grey_500">#ffa3a3a3</color>
+    <color name="material_grey_600">#ff757575</color>
+    <color name="material_grey_900">#ff212121</color>
+    <color name="vanillaAccent">#ff3e677a</color>
+    <color name="vanillaPrimary">#ff37474f</color>
+    <color name="vanillaPrimaryDark">#ff263238</color>
+    <style name="BackActionBar" parent="VanillaBase">
+		<item name="android:actionBarStyle">@style/PlaybackActionBar</item>
+	</style>
+    <style name="Dark.BackActionBar" parent="Dark.VanillaBase">
+		<item name="android:actionBarStyle">@style/PlaybackActionBar</item>
+	</style>
+    <style name="Dark.Library" parent="Dark.VanillaBase">
+		<item name="android:actionBarStyle">@style/LibraryActionBar</item>
+		<item name="android:actionBarTabTextStyle">@style/Dark.LibraryActionBarTabText</item>
+	</style>
+    <style name="Dark.LibraryActionBarTabText" parent="android:Widget.Material.ActionBar.TabText">
+		<item name="android:singleLine">true</item>
+		<item name="android:textSize">11.5sp</item>
+		<item name="android:textColor">@color/material_grey_300</item>
+	</style>
+    <style name="Dark.Playback" parent="Dark.VanillaBase">
+		<item name="android:actionBarStyle">@style/PlaybackActionBar</item>
+	</style>
+    <style name="Dark.VanillaBase" parent="android:Theme.Material">
+		<item name="overlay_background_color">#ff303030</item>
+		<item name="overlay_foreground_color">#ffffffff</item>
+		<item name="divider_color">@color/button_material_dark</item>
+		<item name="float_color">@color/material_grey_900</item>
+		<item name="android:colorAccent">@color/vanillaAccent</item>
+		<item name="android:colorPrimary">@color/vanillaPrimary</item>
+		<item name="android:colorPrimaryDark">@color/vanillaPrimaryDark</item>
+	</style>
+    <style name="Dialog" parent="android:Theme.Material.Light.Dialog"/>
+    <style name="DialogMinWidth" parent="android:Theme.Material.Light.Dialog.MinWidth"/>
+    <style name="Library" parent="VanillaBase">
+		<item name="android:actionBarStyle">@style/LibraryActionBar</item>
+		<item name="android:actionBarTabTextStyle">@style/LibraryActionBarTabText</item>
+	</style>
+    <style name="LibraryActionBar" parent="android:Widget.Material.ActionBar">
+		<item name="android:displayOptions"/>
+		<item name="android:background">@color/vanillaPrimary</item>
+	</style>
+    <style name="LibraryActionBarTabText" parent="android:Widget.Material.ActionBar.TabText">
+		<item name="android:singleLine">true</item>
+		<item name="android:textSize">11.5sp</item>
+		<item name="android:textColor">@color/material_grey_900</item>
+	</style>
+    <style name="Playback" parent="VanillaBase">
+		<item name="android:actionBarStyle">@style/PlaybackActionBar</item>
+	</style>
+    <style name="PlaybackActionBar" parent="android:Widget.Material.ActionBar">
+		<item name="android:displayOptions">showTitle|homeAsUp</item>
+		<item name="android:background">@color/vanillaPrimary</item>
+	</style>
+    <style name="VanillaBase" parent="android:Theme.Material.Light.DarkActionBar">
+		<item name="overlay_background_color">#ffeeeeee</item>
+		<item name="overlay_foreground_color">#f000</item>
+		<item name="divider_color">@color/button_material_light</item>
+		<item name="float_color">@color/button_material_light</item>
+		<item name="android:colorAccent">@color/vanillaAccent</item>
+		<item name="android:colorPrimary">@color/vanillaPrimary</item>
+		<item name="android:colorPrimaryDark">@color/vanillaPrimaryDark</item>
+	</style>
+</resources>

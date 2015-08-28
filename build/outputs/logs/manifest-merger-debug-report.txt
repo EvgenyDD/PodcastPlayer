@@ -1,0 +1,219 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:24:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:24:11
+	package
+		ADDED from AndroidManifest.xml:25:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:26:2
+	android:versionCode
+		ADDED from AndroidManifest.xml:27:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:installLocation
+		ADDED from AndroidManifest.xml:28:2
+uses-sdk
+ADDED from AndroidManifest.xml:29:2
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:29:39
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:29:12
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:30:2
+	android:name
+		ADDED from AndroidManifest.xml:30:19
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:31:2
+	android:name
+		ADDED from AndroidManifest.xml:31:19
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:32:2
+	android:name
+		ADDED from AndroidManifest.xml:32:19
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from AndroidManifest.xml:34:2
+	android:name
+		ADDED from AndroidManifest.xml:34:19
+application
+ADDED from AndroidManifest.xml:35:2
+	android:label
+		ADDED from AndroidManifest.xml:37:3
+	android:icon
+		ADDED from AndroidManifest.xml:36:3
+activity#ch.blinkenlights.android.vanilla.FullPlaybackActivity
+ADDED from AndroidManifest.xml:38:3
+	android:name
+		ADDED from AndroidManifest.xml:39:4
+	android:launchMode
+		ADDED from AndroidManifest.xml:40:4
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:41:4
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:42:5
+	android:name
+		ADDED from AndroidManifest.xml:42:13
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:43:5
+	android:name
+		ADDED from AndroidManifest.xml:43:15
+activity#ch.blinkenlights.android.vanilla.LibraryActivity
+ADDED from AndroidManifest.xml:46:3
+	android:uiOptions
+		ADDED from AndroidManifest.xml:49:4
+	android:theme
+		ADDED from AndroidManifest.xml:48:4
+	android:name
+		ADDED from AndroidManifest.xml:47:4
+	android:launchMode
+		ADDED from AndroidManifest.xml:50:4
+activity#ch.blinkenlights.android.vanilla.PlaylistActivity
+ADDED from AndroidManifest.xml:51:3
+	android:name
+		ADDED from AndroidManifest.xml:52:4
+	android:launchMode
+		ADDED from AndroidManifest.xml:53:4
+activity#ch.blinkenlights.android.vanilla.MiniPlaybackActivity
+ADDED from AndroidManifest.xml:54:3
+	android:theme
+		ADDED from AndroidManifest.xml:56:4
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:57:4
+	android:name
+		ADDED from AndroidManifest.xml:55:4
+	android:launchMode
+		ADDED from AndroidManifest.xml:58:4
+activity#ch.blinkenlights.android.vanilla.ShowQueueActivity
+ADDED from AndroidManifest.xml:59:3
+	android:name
+		ADDED from AndroidManifest.xml:60:4
+	android:launchMode
+		ADDED from AndroidManifest.xml:61:4
+receiver#ch.blinkenlights.android.vanilla.OneCellWidget
+ADDED from AndroidManifest.xml:62:3
+	android:label
+		ADDED from AndroidManifest.xml:64:4
+	android:name
+		ADDED from AndroidManifest.xml:63:4
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:65:4
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:66:5
+	android:name
+		ADDED from AndroidManifest.xml:66:13
+meta-data#android.appwidget.provider
+ADDED from AndroidManifest.xml:68:4
+	android:resource
+		ADDED from AndroidManifest.xml:70:5
+	android:name
+		ADDED from AndroidManifest.xml:69:5
+receiver#ch.blinkenlights.android.vanilla.FourLongWidget
+ADDED from AndroidManifest.xml:72:3
+	android:label
+		ADDED from AndroidManifest.xml:74:4
+	android:name
+		ADDED from AndroidManifest.xml:73:4
+receiver#ch.blinkenlights.android.vanilla.FourWhiteWidget
+ADDED from AndroidManifest.xml:82:3
+	android:label
+		ADDED from AndroidManifest.xml:84:4
+	android:name
+		ADDED from AndroidManifest.xml:83:4
+receiver#ch.blinkenlights.android.vanilla.WidgetE
+ADDED from AndroidManifest.xml:92:3
+	android:label
+		ADDED from AndroidManifest.xml:94:4
+	android:name
+		ADDED from AndroidManifest.xml:93:4
+receiver#ch.blinkenlights.android.vanilla.FourSquareWidget
+ADDED from AndroidManifest.xml:102:3
+	android:label
+		ADDED from AndroidManifest.xml:104:4
+	android:name
+		ADDED from AndroidManifest.xml:103:4
+receiver#ch.blinkenlights.android.vanilla.WidgetD
+ADDED from AndroidManifest.xml:112:3
+	android:label
+		ADDED from AndroidManifest.xml:114:4
+	android:name
+		ADDED from AndroidManifest.xml:113:4
+receiver#ch.blinkenlights.android.vanilla.MediaButtonReceiver
+ADDED from AndroidManifest.xml:122:3
+	android:name
+		ADDED from AndroidManifest.xml:122:13
+intent-filter#android.intent.action.MEDIA_BUTTON
+ADDED from AndroidManifest.xml:123:4
+	android:priority
+		ADDED from AndroidManifest.xml:123:19
+action#android.intent.action.MEDIA_BUTTON
+ADDED from AndroidManifest.xml:124:5
+	android:name
+		ADDED from AndroidManifest.xml:124:13
+service#ch.blinkenlights.android.vanilla.PlaybackService
+ADDED from AndroidManifest.xml:127:3
+	android:name
+		ADDED from AndroidManifest.xml:127:12
+intent-filter#ch.blinkenlights.android.vanilla.action.NEXT_SONG+ch.blinkenlights.android.vanilla.action.PAUSE+ch.blinkenlights.android.vanilla.action.PLAY+ch.blinkenlights.android.vanilla.action.PREVIOUS_SONG+ch.blinkenlights.android.vanilla.action.TOGGLE_PLAYBACK
+ADDED from AndroidManifest.xml:128:4
+action#ch.blinkenlights.android.vanilla.action.PLAY
+ADDED from AndroidManifest.xml:129:5
+	android:name
+		ADDED from AndroidManifest.xml:129:13
+action#ch.blinkenlights.android.vanilla.action.PAUSE
+ADDED from AndroidManifest.xml:130:5
+	android:name
+		ADDED from AndroidManifest.xml:130:13
+action#ch.blinkenlights.android.vanilla.action.TOGGLE_PLAYBACK
+ADDED from AndroidManifest.xml:131:5
+	android:name
+		ADDED from AndroidManifest.xml:131:13
+action#ch.blinkenlights.android.vanilla.action.NEXT_SONG
+ADDED from AndroidManifest.xml:132:5
+	android:name
+		ADDED from AndroidManifest.xml:132:13
+action#ch.blinkenlights.android.vanilla.action.PREVIOUS_SONG
+ADDED from AndroidManifest.xml:133:5
+	android:name
+		ADDED from AndroidManifest.xml:133:13
+activity#ch.blinkenlights.android.vanilla.PreferencesActivity
+ADDED from AndroidManifest.xml:136:3
+	android:name
+		ADDED from AndroidManifest.xml:137:4
+activity#ch.blinkenlights.android.vanilla.TabOrderActivity
+ADDED from AndroidManifest.xml:138:3
+	android:name
+		ADDED from AndroidManifest.xml:139:4
+activity#ch.blinkenlights.android.vanilla.FilebrowserStartActivity
+ADDED from AndroidManifest.xml:140:3
+	android:name
+		ADDED from AndroidManifest.xml:141:4
+activity#ch.blinkenlights.android.vanilla.AudioPickerActivity
+ADDED from AndroidManifest.xml:143:3
+	android:theme
+		ADDED from AndroidManifest.xml:143:48
+	android:exported
+		ADDED from AndroidManifest.xml:144:38
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:144:4
+	android:name
+		ADDED from AndroidManifest.xml:143:13
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:145:4
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:146:5
+	android:name
+		ADDED from AndroidManifest.xml:146:13
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:147:5
+	android:name
+		ADDED from AndroidManifest.xml:147:15
+data
+ADDED from AndroidManifest.xml:148:5
+	android:scheme
+		ADDED from AndroidManifest.xml:148:11

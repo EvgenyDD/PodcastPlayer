@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/H:/WORKSPACE/Android/vanilla/res/values-pl/translatable.xml -->
+    <eat-comment/>
+    <string name="app_name">Vanilla Music</string>
+    <string name="empty_queue">Nie wybrałeś piosenek. Zaznacz jakieś w bibliotece lub przejdź do trybu losowego klikając w tę wiadomość.</string>
+    <string name="library">Biblioteka</string>
+    <string name="no_repeat">Nie powtarzaj</string>
+    <string name="no_shuffle">Nie mieszaj</string>
+    <string name="no_songs">Nie znaleziono piosenek na twoim urządzeniu.</string>
+    <string name="random">Losowo</string>
+    <string name="repeat">Powtórz</string>
+    <string name="repeat_current_song">Powtórz piosenkę</string>
+    <string name="settings">Ustawienia</string>
+    <string name="shuffle_albums">Pomieszaj albumy</string>
+    <string name="shuffle_songs">Pomieszaj piosenki</string>
+    <string name="stop_current_song">Zatrzymaj po piosence</string>
+</resources>
